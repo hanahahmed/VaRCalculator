@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="varcalculator.VaRCalculatorTest" time="0.082" tests="4" errors="0" skipped="0" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Hanah\work\Client stuff\activeviam\VaRCalculator\target\test-classes;C:\Users\Hanah\work\Client stuff\activeviam\VaRCalculator\target\classes;C:\Users\Hanah\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Hanah\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Hanah\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\Hanah\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Hanah\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Hanah\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;"/>
+    <property name="java.vm.vendor" value="JetBrains s.r.o."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\jbr\bin"/>
+    <property name="sun.java.command" value="C:\Users\Hanah\AppData\Local\Temp\surefire12452367574920148078\surefirebooter11018957256191852556.jar C:\Users\Hanah\AppData\Local\Temp\surefire12452367574920148078 2024-10-17T12-39-33_841-jvmRun1 surefire687818322870189835tmp surefire_07363030089789929668tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Hanah\work\Client stuff\activeviam\VaRCalculator\target\test-classes;C:\Users\Hanah\work\Client stuff\activeviam\VaRCalculator\target\classes;C:\Users\Hanah\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.7.0\junit-jupiter-engine-5.7.0.jar;C:\Users\Hanah\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\Hanah\.m2\repository\org\junit\platform\junit-platform-engine\1.7.0\junit-platform-engine-1.7.0.jar;C:\Users\Hanah\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Hanah\.m2\repository\org\junit\platform\junit-platform-commons\1.7.0\junit-platform-commons-1.7.0.jar;C:\Users\Hanah\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.0\junit-jupiter-api-5.7.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Hanah"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-02-08"/>
+    <property name="java.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\jbr"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Hanah\work\Client stuff\activeviam\VaRCalculator"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Hanah\AppData\Local\Temp\surefire12452367574920148078\surefirebooter11018957256191852556.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.14.1+1-b1751.46"/>
+    <property name="user.name" value="Hanah"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="JBR-11.0.14.1.1-1751.46-jcef"/>
+    <property name="localRepository" value="C:\Users\Hanah\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Hanah\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.3.3"/>
+    <property name="java.version" value="11.0.14.1"/>
+    <property name="user.dir" value="C:\Users\Hanah\work\Client stuff\activeviam\VaRCalculator"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\jbr\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Nodes.js;C:\Python312\Scripts\;C:\Python312\;C:\Users\Hanah\Maven apache\apache-maven-3.9.5\apache-maven\src\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Users\Hanah\jdk\jdk-16.0.2+7\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\HP\HP One Agent;C:\Program Files\PuTTY\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Yarn\bin;C:\Program Files\Nodes.js;C:\Users\Hanah\AppData\Local\Microsoft\WindowsApps;C:\Users\Hanah\Maven apache\apache-maven-3.9.5\apache-maven\src\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\bin;C:\Users\Hanah\Maven apache\apache-maven-3.9.5\bin;C:\Users\Hanah\Maven apache\apache-maven-3.9.5;C:\Users\Hanah\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.1\bin;C:\Users\Hanah\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\Hanah\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Hanah\AppData\Local\Yarn\bin;C:\Program Files (x86)\Yarn\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="JetBrains s.r.o."/>
+    <property name="java.vm.version" value="11.0.14.1+1-b1751.46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="testCalculatePortfolioVaR97Confidence" classname="varcalculator.VaRCalculatorTest" time="0.068">
+    <failure message="expected: &lt;-3.3&gt; but was: &lt;-5.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <-3.3> but was: <-5.0>
+	at varcalculator.VaRCalculatorTest.testCalculatePortfolioVaR97Confidence(VaRCalculatorTest.java:41)
+]]></failure>
+  </testcase>
+  <testcase name="testCalculatePortfolioVaR" classname="varcalculator.VaRCalculatorTest" time="0">
+    <failure message="expected: &lt;-4.3&gt; but was: &lt;-5.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <-4.3> but was: <-5.0>
+	at varcalculator.VaRCalculatorTest.testCalculatePortfolioVaR(VaRCalculatorTest.java:31)
+]]></failure>
+  </testcase>
+  <testcase name="testCalculateVaR97Confidence" classname="varcalculator.VaRCalculatorTest" time="0">
+    <failure message="expected: &lt;-2.0&gt; but was: &lt;-3.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <-2.0> but was: <-3.0>
+	at varcalculator.VaRCalculatorTest.testCalculateVaR97Confidence(VaRCalculatorTest.java:21)
+]]></failure>
+  </testcase>
+  <testcase name="testCalculateVaR" classname="varcalculator.VaRCalculatorTest" time="0.001">
+    <failure message="expected: &lt;-2.5&gt; but was: &lt;-3.0&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <-2.5> but was: <-3.0>
+	at varcalculator.VaRCalculatorTest.testCalculateVaR(VaRCalculatorTest.java:13)
+]]></failure>
+  </testcase>
+</testsuite>

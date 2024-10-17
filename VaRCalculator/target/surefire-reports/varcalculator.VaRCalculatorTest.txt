@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: varcalculator.VaRCalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.082 s <<< FAILURE! - in varcalculator.VaRCalculatorTest
+testCalculatePortfolioVaR97Confidence  Time elapsed: 0.068 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-3.3> but was: <-5.0>
+	at varcalculator.VaRCalculatorTest.testCalculatePortfolioVaR97Confidence(VaRCalculatorTest.java:41)
+
+testCalculatePortfolioVaR  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-4.3> but was: <-5.0>
+	at varcalculator.VaRCalculatorTest.testCalculatePortfolioVaR(VaRCalculatorTest.java:31)
+
+testCalculateVaR97Confidence  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-2.0> but was: <-3.0>
+	at varcalculator.VaRCalculatorTest.testCalculateVaR97Confidence(VaRCalculatorTest.java:21)
+
+testCalculateVaR  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <-2.5> but was: <-3.0>
+	at varcalculator.VaRCalculatorTest.testCalculateVaR(VaRCalculatorTest.java:13)
+
